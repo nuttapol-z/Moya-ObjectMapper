@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.10'
   s.watchos.deployment_target = '3.0'
   s.tvos.deployment_target = '9.0'
-  s.source       = { :git => "https://github.com/bmoliveira/Moya-ObjectMapper.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/nuttapol-z/Moya-ObjectMapper.git", :tag => s.version }
   s.default_subspec = "Core"
 
   s.subspec "Core" do |ss|
